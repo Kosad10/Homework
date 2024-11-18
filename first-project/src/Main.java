@@ -18,7 +18,7 @@ public class Main {
         }
         return true;
     }
-    // Задание 3 не сделано
+    // Задание 3
     public static double calculateArithmeticmean(int[] numbers) {
         double sum = 0;
         for (int i = 0; i < numbers.length; i++) {
@@ -63,7 +63,7 @@ public class Main {
         // Задание 4
         // вынести в метод который возвращает массив int[], int[0] - min, int[1] - max
         System.out.println("Задание 4");
-        int[] numbers = {1,45,3,2,87,9,65,34,90,12};
+        int[] numbers = {1,45,3,2,87,9,65,34,0,12};
         identifyMaxMin(numbers);
         }
     }
